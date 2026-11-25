@@ -1,0 +1,17 @@
+{
+  "name": "legal-matter-spend-cap",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/matter_spend.ts",
+    "test": "node src/matter_spend.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

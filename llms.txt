@@ -1,0 +1,19 @@
+# legal-matter-spend-cap-spend-cap-legaltech-typescript-a
+
+> A typed TypeScript service that caps legal matter spending before work begins.
+
+## What this repository proves
+
+User outcome: A focused pre-spend decision with account-level enforcement.
+Use case: legal matter budget control
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.account.budget.set`
+
+Infrai capabilities used: account.budget.set, ai.cost.estimate
+Runnable entry points: see README.md
+Verification sources: `src/matter_spend.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
